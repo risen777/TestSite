@@ -26,7 +26,7 @@ namespace TestSite
             Browser.Navigate().GoToUrl("http://google.com");
 
             IWebElement SearchInput = Browser.FindElement(By.Id("lst-ib"));
-            SearchInput.SendKeys("летающиqе лошади" + OpenQA.Selenium.Keys.Enter);
+            SearchInput.SendKeys("летающие лошади" + OpenQA.Selenium.Keys.Enter);
         }
 
         private void button2_Click(object sender, EventArgs e)
